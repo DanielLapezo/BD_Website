@@ -1,0 +1,142 @@
+@font-face{
+    font-family: BabyDriver3D;
+    src: url(FONTS/gunplay\ 3d.ttf);
+}
+
+@font-face{
+    font-family: BabyDriver;
+    src: url(FONTS/gunplay\ rg.ttf);
+}
+
+@font-face{
+    font-family: Futura;
+    src: url(FONTS/FuturaRoundBold.ttf)
+}
+
+body{
+    margin: 0;
+    /* min-width: 1500px; */
+}
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/*container
+===============================*/
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*Intro
+=====================================*/
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url(images/wallpaper.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.quotes_intro {
+    margin: 0 auto;
+    content: url(images/quote.png);
+    background-color: rgba(0, 0, 0, 0.394);
+}
+
+/*header
+========================*/
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.inner_header h1{
+    font-size: 50px;
+    font-family: BabyDriver, sans-serif;
+    color: white;
+}
+
+span.killer_track {
+    font-size: 135%;
+    color: red;
+}
+
+a.off_site {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: BabyDriver3D;
+    font-size: 30px;
+    transition: color .2s linear;
+    margin-top: 50px;
+}
+
+a.off_site:hover{
+    color: red;
+
+}
+
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*section
+============================*/
+section.section {
+    
+}
+
+.section_header {
+    margin: 50px auto;
+}
+
+.section_title {
+    text-align: center;
+}
+
+hr {
+    width: 200px;
+    height: 5px;
+    background-color: red;
+    border: solid red;
+}
+
+.section_text {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.section_text p {
+    text-indent: 20px;
+}
+
+.section_text p span {
+    font-family: BabyDriver;
+}
+
+section.section{
+    align-items: center;
+}
+
+/*Screenshots section
+================================*/
+.table_screenshots{
+    
+}
