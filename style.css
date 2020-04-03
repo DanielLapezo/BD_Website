@@ -1,0 +1,59 @@
+@font-face{
+    font-family: BabyDriver;
+    src: url(FONTS/gunplay\ rg.ttf);
+}
+
+@font-face{
+    font-family: BabyDriver3d;
+    src: url(FONTS/gunplay\ 3d.ttf);
+}
+
+
+
+body {
+    margin: 0; /*Убираем отступы*/
+    height: 100%; /* Высота страницы */
+    background: url(images/wallpaper.jpg); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+    color: white;
+    background-repeat: no-repeat;
+    max-width: 1500px;
+    max-height: 5000px;
+} 
+
+
+header {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+
+h1 {
+    font-family: BabyDriver;
+    font-size: 50px;
+    margin-left: 10px; 
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+.killer_track {
+    color: red;
+    font-size: 135%;
+}
+
+a {
+    position: absolute;
+    color: white;
+    top: 19px;
+    left: auto;
+    bottom: 0px;
+    right: 20px;
+    font-family: BabyDriver3d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    
+}
+
