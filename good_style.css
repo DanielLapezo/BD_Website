@@ -32,6 +32,11 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 1400px;
     margin: 0 auto;
 }
+  
+  @keyframes fadeBg {
+    0%, 20% { opacity: 1; }
+    100% { opacity: 0; }
+  }
 
 /*Intro
 =====================================*/
@@ -49,6 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .quotes_intro {
     margin: 0 auto;
+    padding: 5px;;
     content: url(images/quote.png);
     background-color: rgba(0, 0, 0, 0.394);
 }
@@ -70,9 +76,13 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 
-span.killer_track {
+a.killer_track {
     font-size: 135%;
     color: red;
+    text-decoration: none;
+}
+a.killer_track:hover{
+color: rgba(224, 59, 59, 0.822);
 }
 
 a.off_site {
@@ -86,8 +96,12 @@ a.off_site {
     margin-top: 50px;
 }
 
+a.off_site{
+    color: rgba(247, 247, 247, 0.952);
+}
+
 a.off_site:hover{
-    color: red;
+    color: rgba(250, 0, 0, 0.712);
 
 }
 
@@ -104,10 +118,13 @@ section.section {
 }
 
 .section_header {
-    margin: 50px auto;
+    margin: 52px auto;
 }
 
 .section_title {
+    text-align: center;
+}
+.trailer_title {
     text-align: center;
 }
 
@@ -123,9 +140,15 @@ hr {
     width: 60%;
 }
 
+
 .section_text p {
-    text-indent: 20px;
+    text-indent: 32px;
 }
+.rightpic{
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
 
 .section_text p span {
     font-family: BabyDriver;
