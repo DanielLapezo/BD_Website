@@ -209,3 +209,24 @@ section.section {
 .card:hover .back {
   transform: rotateY(360deg);
 }
+
+
+/*footer
+========================*/
+.footer {
+  background-color: rgb(247, 38, 125);
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: BabyDriver;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle__content {
+  align-items: center;
+}
